@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Job Project Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+
+    .cta {
+      background-color: #1e293b;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 3rem;
+    }
+
+    .cta input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      background: #334155;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .cta button {
+      width: 100%;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #3b82f6;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta button:hover {
+      background-color: #2563eb;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .feature {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature p {
+      color: #94a3b8;
+      font-size: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .features {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Step Into Your Dream Tech Career</h1>
+    <p>Our platform equips you with the tools, projects, and preparation you need to get hired in tech.</p>
+  </header>
+
+  <div class="cta">
+    <input type="email" placeholder="Enter your email">
+    <button>Join Now</button>
+  </div>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Master Essential Skills</h2>
+      <p>Learn HTML, CSS, JavaScript, React, Node.js, and more with structured paths.</p>
+    </div>
+    <div class="feature">
+      <h2>Real Projects</h2>
+      <p>Build portfolio-worthy apps that show your abilities to employers.</p>
+    </div>
+    <div class="feature">
+      <h2>Career Support</h2>
+      <p>Get guidance on resumes, job applications, and technical interviews.</p>
+    </div>
+  </section>
+</body>
+</html>
