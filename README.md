@@ -10,4 +10,4 @@ A clean and responsive landing page built using HTML and CSS. This project showc
 HTML5
 CSS3
 
-🚀 Live Demo()
+🚀 Live Demo(https://chikwa235.github.io/landing-page/)
